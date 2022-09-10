@@ -1,5 +1,5 @@
 <?php
-//error_reporting(0);
+error_reporting(0);
 
 $num = $_REQUEST["number"]; //get number from get request
 $msg1 = $_REQUEST["message"]; // get message from get requst
