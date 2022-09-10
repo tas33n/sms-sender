@@ -33,6 +33,17 @@ $resp2 = curl_exec($curl2);
 curl_close($curl2);
 echo 'sms sent successfull';
 
-echo $resp2;
+//echo $resp2;
+
+//  echo $resp;
+
+
+// $status = (json_decode($resp)->success);
+
+// if ($status == 1) {
+//     echo 'sms sent successfull';
+// } else {
+//     echo 'sms sent faild';
+// }
 
 ?>
